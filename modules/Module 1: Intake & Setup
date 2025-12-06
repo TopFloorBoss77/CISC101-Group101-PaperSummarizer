@@ -1,0 +1,4 @@
+## Module 1: Intake & Setup
+- Normalize section boundaries.
+- Detect missing or short sections (<50 words).
+- Prepare metadata for section loop.
