@@ -1,5 +1,7 @@
 ## Module 2: Section Loop
 For each section:
-- Summarize content (≤300 words).
+- determine based off the section's length if "summary_level" equals "short" or "long"
+-if summary_level = "short": generate a compact summary (<150 words)
+-if summary_level = "long": generate a summary + a bullet list (<300 words total)
 - Extract key findings.
 - Apply coherence checks.
