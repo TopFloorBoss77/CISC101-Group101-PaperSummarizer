@@ -1,5 +1,12 @@
 ## Module 3: Guardrails
+- evidence_mode = true
+- if evidence_mode == true:
+    - LLM must only include claims, equations, and results from the given text
+    - If the LLM cannot find enough information, it must explicitly state such
+
 - Flag missing/empty sections.
 - Flag sections <50 words.
+- if a section has been flagged the module must instruct the LLM to output a standardized warning explaining why the section was flagged. For example:"section skipped, not enough information available in section to complete summary"
+
 - Mitigate hallucinations: only summarize provided text.
 - Chunk long papers into manageable segments.
