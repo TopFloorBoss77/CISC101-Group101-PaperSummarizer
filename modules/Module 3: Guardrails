@@ -1,5 +1,16 @@
 ## Module 3: Guardrails
+
+-strict_mode = true
+- if strict_mode == true:
+    - only include claims, equations, and results that appear in the provided text and nothing else
+    - if the LLM cannot find enough information, this must be explicitly stated
+if strict_mode ==false:
+    -outside sources may be used
+    -LLM must state when an outside source is used and cite said source
+
 - Flag missing/empty sections.
 - Flag sections <50 words.
+- if a section is flagged, a standardized warning must be output regarding why the section was flagged. for example: "section skipped: no usable text available"
+
 - Mitigate hallucinations: only summarize provided text.
 - Chunk long papers into manageable segments.
