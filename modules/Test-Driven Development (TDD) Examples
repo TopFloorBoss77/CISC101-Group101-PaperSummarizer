@@ -1,0 +1,21 @@
+# Test-Driven Development (TDD) Examples
+
+### Test 1: Missing Section
+**Input:** Paper with no "Conclusion" section.  
+**Expected Output:** Warning in "Checks & Warnings" → "⚠️ Missing conclusion metadata."
+
+### Test 2: Short Section
+**Input:** Methods section with 40 words.  
+**Expected Output:** Warning → "⚠️ Methods section <50 words."
+
+### Test 3: Equation Handling
+**Input:** Paper contains `F = ma`.  
+**Expected Output:** Equation Explainer → "Force equals mass times acceleration."
+
+### Test 4: Glossary Highlighting
+**Input:** Glossary defines "Entropy".  
+**Expected Output:** All mentions of entropy in summaries appear as **entropy**.
+
+### Test 5: Length Constraint
+**Input:** Section with 600 words.  
+**Expected Output:** Summarizer produces ≤300 words summary.
