@@ -1,0 +1,4 @@
+## Module 6: Glossary Highlighter
+- Detect glossary terms.
+- Underline glossary words when they appear in summaries.
+- Example: "The system’s **entropy** increases with disorder."
